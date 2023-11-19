@@ -13,5 +13,43 @@ body{
     align-items: center;
     min-height: 100vh;
     background-color: #081b29;
+}
 
+.wrapper{
+    position: relative;
+    width: 750px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid #0ef;
+}
+
+.wrapper .form-box{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-box h2{
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+}
+
+.form-box .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 25px 0;
+    
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
 }
