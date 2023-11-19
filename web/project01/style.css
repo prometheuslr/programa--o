@@ -38,12 +38,12 @@ body{
 .wrapper .form-box.login{
     left: 0;
     padding: 0 60px 0 40px;
-    display: none;
 }
 
 .wrapper .form-box.register{
     right: 0;
     padding: 0 40px 0 60px;
+    display: none;
 }
 
 .form-box h2{
@@ -177,6 +177,12 @@ body{
     right: 0;
     text-align: right;
     padding: 0 40px 60px 150px;
+}
+
+.wrapper .info-text.register{
+    left: 0;
+    text-align: left;
+    padding: 0 150px 60px 40px;
     display: none;
 }
 
@@ -200,8 +206,8 @@ body{
     height: 600px;
     background: linear-gradient(45deg,#081b29, #0ef);
     border-bottom: 3px solid #0ef;
-    /* transform: rotate(10deg) skewY(40deg); */
-    transform: rotate(0) skewY(0);
+    transform: rotate(10deg) skewY(40deg);
+    /* transform: rotate(0) skewY(0); */
     transform-origin: bottom right;
 }
 
@@ -213,6 +219,8 @@ body{
     height: 700px;
     background: #081b29;
     border-top: 3px solid #0ef;
-    transform: rotate(-11deg) skewY(-41deg);
+    /* transform: rotate(-11deg) skewY(-41deg); */
+    transform: rotate(0) skewY(0);
     transform-origin: bottom left;
 }
+
